@@ -20,9 +20,27 @@ This is a sample Bonita project to learn how to manage such project stored into 
 
 image:doc/create_new_project.png[title="Create new project",width=50%]
 
-=== Second: Use "Share with Git" feature to create your Github repo of your new Bonita project.
+=== Second: Create a repository with your Github account
+
+image:doc/create_new_repo_in_github.png[title="Create new repo",width=50%]
+
+=== Third: Use "Share with Git" feature to create your Github repo of your new Bonita project.
 
 image:doc/Share_with_Git.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master_2.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master_3.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master_4.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master_5.png[title="Share with Git",width=50%]
+
+image:doc/push_branch_master_6.png[title="Share with Git",width=50%]
+
+=== Ready to share developments using new Github repo.
 
 
 == Processus
