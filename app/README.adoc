@@ -1,0 +1,127 @@
+= githubtraining
+Généré avec Bonita
+v0.0.1, {docdate}
+:toc: left
+:toc-title: Table des matières
+:toclevels: 2
+:bonita-version: 9.0
+:imagesdir: ./documentation/images
+:icons: font
+:sectnums: numbered
+:sectanchors:
+:hardbreaks:
+:experimental:
+
+== Description
+
+This is a sample Bonita project to learn how to manage such project stored into a Github repository.
+
+=== First: Create a new project in your Studio
+
+image:doc/create_new_project.png[title="Create new project",width=50%]
+
+=== Second: Use "Share with Git" feature to create your Github repo of your new Bonita project.
+
+image:doc/Share_with_Git.png[title="Share with Git",width=50%]
+
+
+== Processus
+
+=== image:icons/Pool.png[title="Processus"] [[_eba70053-68e6-3c79-95f1-2c5cd3645c7c]]Pool (1.0)
+
+_Aucune description disponible_
+
+image::processes/Pool-1.0.png[]
+
+==== icon:users[] Acteurs
+
+[grid=cols,options="header",cols="1,3a",stripes=even,frame=topbot]
+|===
+|Nom                                                                                                      |Description                                                        
+|[[_67eccd08-4b07-331f-aff1-cbbd111e85aa]]Employee actor icon:play-circle[title="Initiateur du processus"]|Ceci est un exemple d'acteur associé à tous les utilisateurs d'ACME
+|===
+
+==== Formulaire d'instanciation
+
+[CAUTION]
+====
+Association de formulaire invalide. Aucun formulaire spécifié.
+====
+
+==== image:icons/Lane.png[title="Lane"] Employé (lane) (<<_67eccd08-4b07-331f-aff1-cbbd111e85aa,icon:user[title="Acteur"] Employee actor>>)
+
+_Aucune description disponible_
+
+==== [[_b925c029-027f-3cfb-8466-e81d3024b1cd]]image:icons/StartEvent.png[title="StartEvent"] Démarrer1
+
+_Aucune description disponible_
+
+===== icon:arrow-right[] Transition(s) sortante(s)
+
+*Vers <<_f3b797f7-47f2-316d-8156-3ef83b29a639,Étape1>>*
+
+==== [[_f3b797f7-47f2-316d-8156-3ef83b29a639]]image:icons/Task.png[title="Task"] Étape1
+
+_Aucune description disponible_
+
+*Élément(s) précédent*: <<_b925c029-027f-3cfb-8466-e81d3024b1cd,Démarrer1>>
+
+[CAUTION]
+====
+Association de formulaire invalide. Aucun formulaire spécifié.
+====
+
+== Diagrammes de processus
+
+=== MonDiagramme (1.0)
+
+_Aucune description disponible_
+
+image::diagrams/MonDiagramme-1.0.png[]
+
+== Organization
+
+=== Groupes
+
+// Décommentez cette ligne dans organization_template.tpl pour afficher le diagramme de la hiérarchie des groupes.
+// image::groups.svg[link=images/groups.svg]
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Chemin d'accès           |Nom métier            |Description                                                                         
+|/acme                    |Acme                  |This group represents the acme department of the ACME organization                  
+|/acme/hr                 |Human Resources       |This group represents the human resources department of the ACME organization       
+|/acme/finance            |Finance               |This group represents the finance department of the ACME organization               
+|/acme/it                 |Infrastructure        |This group represents the infrastructure department of the ACME organization        
+|/acme/marketing          |Marketing             |This group represents the marketing department of the ACME organization             
+|/acme/production         |Production            |This group represents the production department of the ACME organization            
+|/acme/production/rd      |Research & Development|This group represents the research & development department of the ACME organization
+|/acme/production/services|Services              |This group represents the services department of the ACME organization              
+|/acme/sales              |Sales                 |This group represents the sales department of the ACME organization                 
+|/acme/sales/europe       |Europe                |This group represents the europe department of the ACME organization                
+|/acme/sales/asia         |Asia                  |This group represents the asia department of the ACME organization                  
+|/acme/sales/latin_america|Latin America         |This group represents the latin america department of the ACME organization         
+|/acme/sales/north_america|North America         |This group represents the north america department of the ACME organization         
+|===
+
+=== Rôles
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Nom   |Nom métier|Description
+|member|Member    |           
+|===
+
+=== Profils
+
+[grid=cols,options="header",cols="1e,3a",stripes=even,frame=topbot]
+|===
+|Nom                                                     |Description                                                                                                                 
+|[[_1300bb05-3afe-3c2d-af8b-543b4fb16c32]]User           |The user can view and perform tasks and can start a new case of a
+process.                                                  
+|[[_080d4ce6-9f34-37f2-a270-2edb021a60ec]]Administrator  |The administrator can install a process, manage the organization, and
+handle some errors (for example, by replaying a task).
+|[[_ec4b68ef-adbc-302e-8811-94d9a8fc9032]]Process manager|The Process manager can supervise designated processes, and manage
+cases and tasks of those processes.                      
+|===
+
