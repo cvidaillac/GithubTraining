@@ -42,6 +42,20 @@ image:doc/push_branch_master_6.png[title="Share with Git",width=50%]
 
 === Ready to share developments using new Github repo.
 
+_Idea is to update Bonita project by using different branches of development. Once a development is completed, the goal will be to merge to develop branch, test it before to merge to master branch_
+
+
+==== Create a new branch based on develop branch
+
+image:doc/create_new_branch.png[title="Create New Branch",width=50%]
+
+==== Doing some updates in Bonita project and push into your new dev branch
+
+image:doc/create_new_branch_next.png[title="Create New Branch",width=50%]
+
+==== Merge into develop branch with preview check
+
+
 
 == Processus
 
