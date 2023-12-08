@@ -55,6 +55,13 @@ image:doc/create_new_branch_next.png[title="Create New Branch",width=50%]
 
 ==== Merge into develop branch with preview check
 
+image:doc/commit_and_push_to_remote.png[title="Commit and push to remote",width=50%]
+
+image:doc/commit_and_push_to_remote_2.png[title="Commit and push to remote",width=50%]
+
+_Result of the commit and push _
+
+image:doc/commit_and_push_to_remote_result.png[title="Commit and push to remote",width=50%]
 
 
 == Processus
