@@ -49,19 +49,30 @@ _Idea is to update Bonita project by using different branches of development. On
 
 image:doc/create_new_branch.png[title="Create New Branch",width=50%]
 
-==== Doing some updates in Bonita project and push into your new dev branch
-
 image:doc/create_new_branch_next.png[title="Create New Branch",width=50%]
 
-==== Merge into develop branch with preview check
+==== Doing some updates in Bonita project and push into your new dev branch
 
 image:doc/commit_and_push_to_remote.png[title="Commit and push to remote",width=50%]
 
 image:doc/commit_and_push_to_remote_2.png[title="Commit and push to remote",width=50%]
 
-_Result of the commit and push _
+_Result of the commit and push_
 
 image:doc/commit_and_push_to_remote_result.png[title="Commit and push to remote",width=50%]
+
+
+==== Merge into develop branch with preview check
+
+image:doc/compare_before_merge.png[title="Compare before merge",width=50%]
+
+image:doc/compare_before_merge_1.png[title="Compare before merge",width=50%]
+
+image:doc/compare_before_merge_2.png[title="Compare before merge",width=50%]
+
+_Double click on Readme.adoc file to open comparaison tool_
+
+image:doc/compare_before_merge_2_result.png[title="Compare before merge",width=50%]
 
 
 == Processus
